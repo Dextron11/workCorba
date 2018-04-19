@@ -1,0 +1,5 @@
+interface upTime {
+  void getUpTime(out float systemHasBeenUp,
+                 out float systemHasSpentIdle);
+};
+
