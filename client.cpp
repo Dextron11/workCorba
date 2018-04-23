@@ -39,7 +39,7 @@ int main(int argc, char *argv[]) {
 
         std::cout << "Time:\n"
                   << "   system has been up: " << systemHasBeenUp
-                  << "   system has spent idle" << systemHasSpentIdle;
+                  << "   system has spent idle: " << systemHasSpentIdle<<std::endl;
     }
     catch (const CORBA::Exception &x) {
         std::cerr << "Uncaught CORBA exception" << std::endl;
